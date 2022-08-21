@@ -5,12 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>筋トレ録</title>
+
+<!--jQuery読み込み-->
+<script src="js\jquery-3.6.0.min.js"></script>
+<!--共通パーツ読み込み-->
+<script>
+  $(function() {
+       $("#header").load("parts\header.html");
+       $("#footer").load("parts\footer.html");
+});
+</script>
+
     <link rel=
     "stylesheet" href="css\reset.css">
     <!--リセットcss-->
+
     <link rel=
     "stylesheet" href="css\rensyu.css">
     <!--css-->
+
     <link rel=
     "stylesheet" href="css\2-01.css">
     <!--カードスタイル用css-->
@@ -19,11 +32,14 @@
 
 </head>
 <body>
+
+  <div class="center"> <!--中央寄せ用-->
     
-    <div class="header">
-        <h1>161cm40kg チビガリ男の筋トレ録</h1>
-    </div>
+    <header id="header">
+
+  </header>
     <!--タイトル-->
+
     <p>本サイトでは161cm40kgである筆者の筋トレ内容やその成果を
         記録していきたいと思います。</p>
     <p>やせ形で悩んでいる人、筋トレを始めようか悩んでいる人、
@@ -31,6 +47,7 @@
         いろいろな方に楽しんでもらえると幸いです。</p>
     <p>また番外編としてたまに趣味の報告も行って行きます!乞うご期待!</p>
 <!--本文-->
+
 <div class="container">
 
     <div class="cardList">
@@ -56,6 +73,8 @@
 
   </div>
     <!--ブログへのリンク--> 
+
+
     <p></p>
     <!-- 一言コメント START ----->
 <br>
@@ -83,24 +102,15 @@ padding:0px;overflow:hidden;display:none;"></iframe>
 </table>
 <br>
 <!-- 一言コメント END ----->
-<p></p>
-<div class="btns">
-  <button onclick="location.href='index.html'">前のページへ</button>
-  <button onclick="location.href='index.html'">home</button>
-  <button onclick="location.href='index.html'">次のページへ</button>
-  </div>
-  <p></p>
-    <div class="sns">
-    <a href="https://twitter.com/num1on1hum?ref_src=twsrc%5Etfw" 
-    class="twitter-follow-button" 
-    data-show-count="false">Follow @num1on1hum</a>
-    <script async src="https://platform.twitter.com/widgets.js" 
-    charset="utf-8"></script>
-    <a href="https://www.instagram.com/nano.ex/">インスタはこちら！</a>
-</div>
-    <!--snsリンク-->
 
-    
-    
+
+<p></p>
+<footer id="footer">
+
+  </footer>
+<!--フッダー-->
+
+</div> <!--中央寄せ用-->
+
 </body>
 </html>

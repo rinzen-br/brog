@@ -1,7 +1,18 @@
 @charset "UTF-8";
 
-.header {
-    font-size: 2rem;
+body{
+  background: rgb(206, 206, 206);
+}
+
+.center{ 
+  width: 90%;	   /*全体の幅を指定する*/  
+  margin: 0 auto;    /*マージンの指定をする、ブラウザ対策*/
+  text-align:left;   /*全体を左揃えにする。*/
+  background: rgb(255, 255, 255);
+}
+
+header {
+    font-size: 2.5rem;
     text-align: center;
     max-width: 1000px; /*最大幅を固定*/
     margin-left: auto;
@@ -11,11 +22,13 @@
 
 
 h2 {
+  font-size: 1.5rem;
     /*線の種類（二重線）太さ 色*/
     border-bottom: double 5px #FFC778;
   }
 
 h3 {
+  font-size: 1.3rem;
     padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
     color: #494949;/*文字色*/
     background: #f4f4f4;/*背景色*/
@@ -24,6 +37,7 @@ h3 {
   }
 
   h4 {
+    font-size: 1.1rem;
     padding: 0.25em 0.5em;/*上下 左右の余白*/
     color: #494949;/*文字色*/
     background: transparent;/*背景透明に*/
@@ -35,7 +49,7 @@ h3 {
   }
 
   .boke {
-    font-size: 2rem
+    font-size: 1.7rem
   }
 
 .sns{
