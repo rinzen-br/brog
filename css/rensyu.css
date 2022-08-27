@@ -2,6 +2,7 @@
 
 body{
   background: rgb(206, 206, 206);
+  line-height:3rem;
 }
 
 .center{ 
@@ -9,6 +10,11 @@ body{
   margin: 0 auto;    /*マージンの指定をする、ブラウザ対策*/
   text-align:left;   /*全体を左揃えにする。*/
   background: rgb(255, 255, 255);
+}
+
+.hidarihe{
+  margin-left:2rem;
+  margin-right:2rem;
 }
 
 header {

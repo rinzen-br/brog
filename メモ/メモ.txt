@@ -1,15 +1,19 @@
   CSSを外部ファイルとして各場合htmlのheadにこれを入れとく
   <link rel="stylesheet" href="ファイルパス">
 
+
 jsを外部ファイルとして書く場合
 <script src="C:\Users\imphd\Desktop\rensyu\js\rensyu.js"></script>
+
 
 画像を挿入する
 <img src="ファイルパス"/>
 
+
  リンクを作成する
  <a href="rensyuu2.html">ここをクリック！</a>
  リンク先　文字
+
 
  要素のグループ化
  <div class="クラス名">
@@ -22,6 +26,7 @@ jsを外部ファイルとして書く場合
 idはページ内に同じ名前のものは1つしかつけることができない
 CSSが適用される優先度はidのほうが高い
 
+
 <ul>タグ
 unordered list の略称で、日本語では「箇条書きのリスト」という意味を
 持ちます。
@@ -32,8 +37,29 @@ list item の略称で、リストの内容を指します。
 親要素が<ul>タグの場合、<li>タグで記述した内容の頭に・（ビュレット）が
 付きます。
 
+
 画像のフルード化(flurd　液体)
 img {
 	max-width: 100%; /*画像自身の物理サイズを最大値として伸縮*/
 	height: auto; /*アスペクト比の崩れを防止*/
 }
+
+
+共通パーツ読み込み
+ <!--jQuery読み込み-->
+<script src="js\jquery-3.6.0.min.js"></script>
+
+<!--共通パーツ読み込み-->
+    <script>
+      $(function() {
+           $('header').load("header.html");
+           $("#footer").load("footer.html");
+    });
+    </script>
+ローカルのファイルにはアクセスできないので、サーバー上でしか確認できない
+htmlファイルが同じ階層にないといけない？
+
+
+エラー出たとき
+ググる　言葉を色々変えたりする
+開発者ツールのコンソールのエラー読む
