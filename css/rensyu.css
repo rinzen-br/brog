@@ -66,3 +66,9 @@ h3 {
     display: flex;
     justify-content: center;
 }
+
+
+/*スマホ用*/
+@media screen and (max-width: 480px) {
+
+ }
