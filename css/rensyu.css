@@ -102,9 +102,11 @@ h3 {
     text-align: center;
 }
 
+
+
+
 .btns{
-    display: flex;
-    justify-content: center;
+  text-align:  center;        /* 中央寄せ */
 }
 
 
