@@ -103,6 +103,42 @@ h3 {
 }
 
 
+.follow-me {
+  display:flex;
+  justify-content: center;/*2つセットで中央寄せ*/
+  margin: 0 0 -8px;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;/*2つセットでお決まり？リストアイテム要素のビュレットとulの余白をとる*/
+}
+.follow-me li {
+  
+  margin: 0 8px 8px 0;
+  padding: 0;
+}
+.follow-me li a::before {
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #fff;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 16px;
+  height: 44px; /* Button height */
+  line-height: 44px; /* Button height */
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  text-align: center;
+  width: 44px; /* Button width */
+}
+.follow-me li a:hover::before {
+  opacity: 0.7;
+}
+.follow-me li 
+a[href*="instagram.com"]::before      
+{ background-color: #ff6db6; content: "\f16d"; }
+.follow-me li a[href*="twitter.com"]::before        
+{ background-color: #55acee; content: "\f099"; }
+
 
 
 .btns{
