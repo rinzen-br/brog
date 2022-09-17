@@ -37,6 +37,7 @@
 /*全てのデバイス向け＋SP用のスタイル*/
 .cardList__item + .cardList__item {
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 /*PC用のスタイル*/
 @media screen and (min-width: 768px),print {

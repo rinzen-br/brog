@@ -66,3 +66,7 @@ htmlファイルが同じ階層にないといけない？
 
 https://twitter.com/kintoreroku
 https://www.instagram.com/kintoreroku/
+
+別タブで開くとき aタブに
+target="_blank" rel="noopener noreferrer"
+を追加
